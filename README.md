@@ -30,20 +30,25 @@ https://github.com/s3venup/Mavis
 ## 参数(Arguments)
 
 **-Script** [filepath]
+
 要嵌入到图像中的脚本的路径。(The path to the script to embed in the Image.)
 
 **-Out** [filepath]
+
 将生成的图像保存到的文件（图像将是 PNG）(The file to save the resulting image to (image will be a PNG))
 
 **-Image** [filepath]
+
 嵌入脚本的图像。（可选）The image to embed the script in. (optional)
 
 **-Web**
+
 使用 Net.WebClient 输出用于从 Web 读取图像的命令。
 您将需要托管图像并将 URL 插入命令中。(Output a command for reading the image from the web using Net.WebClient.
 You will need to host the image and insert the URL into the command.)
 
 **-PictureBox**
+
 使用 System.Windows.Forms.PictureBox 输出用于从 Web 读取图像的命令。
 您将需要托管图像并将 URL 插入命令中。(Output a command for reading the image from the web using System.Windows.Forms.PictureBox.
 You will need to host the image and insert the URL into the command.)
