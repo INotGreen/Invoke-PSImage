@@ -58,6 +58,7 @@ PS>Invoke-PSImage -Script .\payload.ps1 -Out .\456.png -Image .\demo.jpg -Web
 
 
 ## 目前测试(AV Test)
+测试时间:2022-5-29
 
 Windows Defender（√）
 
