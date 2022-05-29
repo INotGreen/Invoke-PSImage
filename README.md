@@ -54,7 +54,8 @@ You will need to host the image and insert the URL into the command.)
 PS>Import-Module .\Invoke-PSImage.ps1
 PS>Invoke-PSImage -Script .\payload.ps1 -Out .\456.png -Image .\demo.jpg -Web
 ```
-![image-20220529141338863](../../../AppData/Roaming/Typora/typora-user-images/image-20220529141338863.png)
+![image-20220529141338863](https://user-images.githubusercontent.com/89376703/170855011-87816880-e3bc-4399-8467-1fe345aa6837.png)
+
 
 ## 目前测试(AV Test)
 
