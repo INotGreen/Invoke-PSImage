@@ -10,7 +10,7 @@ https://github.com/s3venup/Mavis
 
 ## 注释(Notes)：
 
-​		该技术在2016年的时候就被广泛用于Powershell的恶意攻击中，作者在2019年的时候就停止了更新，本次更新是我在原作者的代码基础之上进行修改，用以在红队工作时规避AV/EDR, 方法暂不公开
+​		该技术在2016年的时候就被广泛用于Powershell的恶意攻击中，作者在2019年的时候就停止了更新，本次更新是我在原作者的代码基础之上进行修改，用以在红队工作时规避AV/EDR.
 
 ​		Invoke PS-Image 是一种使用 LSB 隐写术将恶意 Powershell 脚本注入图像的工具。Invoke PS-Image 提供两种模式：
 
