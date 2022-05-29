@@ -24,6 +24,7 @@ https://github.com/s3venup/Mavis
 ## 特点：
 
 1.扫描进程初始化失败，规避内存扫描，脱离系统监控
+
 2.Invoke PS-Image可以一定程度上隐藏C2的流量征, 因此可以规避一些AV/EDR/流量检测设备。
 
 ## 参数(Arguments)
