@@ -27,7 +27,7 @@ https://github.com/s3venup/Mavis
 
 1.扫描进程初始化失败，规避内存扫描，脱离系统监控
 
-2.Invoke PS-Image可以一定程度上隐藏C2的流量征, 因此可以规避一些AV/EDR/流量检测设备。
+2.Invoke PS-Image可以一定程度上隐藏C2的流量特征, 因此可以规避一些AV/EDR/流量检测设备。
 
 ## 参数(Arguments)
 
@@ -59,11 +59,20 @@ You will need to host the image and insert the URL into the command.)
 
 准备一张1920x1200的JPG/PNG图片
 
+用CobaltStrike/MSF生成一个payload.ps1
+
 ```
 PS>Import-Module .\Invoke-PSImage.ps1
 PS>Invoke-PSImage -Script .\payload.ps1 -Out .\456.png -Image .\demo.jpg -Web
 ```
 ![image-20220529141338863](https://user-images.githubusercontent.com/89376703/170855011-87816880-e3bc-4399-8467-1fe345aa6837.png)
+
+将生成的图片马上传至图床(CobaltStrike有这个功能，具体可以看视频讲解，非常简单)，并复制URL链接
+
+将(http://example/456.png)替换成URL链接
+
+![image](https://user-images.githubusercontent.com/89376703/171013306-ea3c5167-5951-48ad-8f6a-1c7fdfeb4eb2.png)
+
 
 
 ## 目前测试(AV Test)
@@ -78,3 +87,8 @@ McAfee（√）
 ESET Nod32（√）
 
 Norton 360（√）
+
+## 加入知识星球学习更多免杀
+
+![378344f1dbc54177de452603a4ea6ab](https://user-images.githubusercontent.com/89376703/171013069-d34d75c4-291f-4753-aeb1-0c1385cc8a6c.jpg)
+
