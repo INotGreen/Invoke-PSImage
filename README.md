@@ -8,6 +8,8 @@
 
 https://github.com/s3venup/Mavis
 
+视频教程：https://www.bilibili.com/video/BV1qr4y1x7uK/
+
 ## 注释(Notes)：
 
 ​		该技术在2016年的时候就被广泛用于Powershell的恶意攻击中，作者在2019年的时候就停止了更新，本次更新是我在原作者的代码基础之上进行修改，用以在红队工作时规避AV/EDR.
