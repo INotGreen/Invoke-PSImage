@@ -90,5 +90,5 @@ Norton 360（√）
 
 ## 加入知识星球学习更多免杀
 
-![378344f1dbc54177de452603a4ea6ab](https://user-images.githubusercontent.com/89376703/171013069-d34d75c4-291f-4753-aeb1-0c1385cc8a6c.jpg)
+![image](https://user-images.githubusercontent.com/89376703/171014106-c24152d6-4a8d-49ae-9623-9a0c282a50eb.png)
 
